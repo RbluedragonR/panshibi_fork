@@ -306,9 +306,10 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
+            minHeight: "100vh",
           },
           className:
-            "w-full flex flex-col items-center justify-center z-10 relative bg-cover bg-center bg-no-repeat bg-gray min-h-full bg-[url(/images/background/overview_small.png)] md:bg-[url(/images/background/overview.png)] mt-[240px] md:mt-[344px]",
+            "w-full flex flex-col items-center justify-center z-10 relative bg-cover bg-center bg-no-repeat bg-gray min-h-[100vh] bg-[url(/images/background/overview_small.png)] md:bg-[url(/images/background/overview.png)] sm:mt-[240px] md:mt-[344px]",
           children: [
             (0, a.jsx)("div", {
               className:
@@ -390,7 +391,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
               className: "px-4 lg:mt-20 mt-0 w-full max-w-[1330px]",
               children: (0, a.jsxs)("div", {
                 className:
-                  "gray-panel flex flex-col lg:flex-row gap-6 p-4 items-center lg:rounded-full w-full justify-between",
+                  "hidden gray-panel flex flex-col lg:flex-row gap-6 p-4 items-center lg:rounded-full w-full justify-between",
                 children: [
                   (0, a.jsx)("div", {
                     className:
